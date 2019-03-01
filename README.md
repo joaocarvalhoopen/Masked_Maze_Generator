@@ -13,7 +13,7 @@ MIT open source
 This program is a reimplementation in Python of the program written in Javascript for processing normal mazes, but in this reimplementation I modified it heavily, I changed the render, I added a user defined mask, SVG output, PNG output, animated GIF output and MPEG4 generation. <br>
 See also the following great videos explaining beautifully the Javascript code and how the algorithm of backtracking works. <br> 
 
-https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_010_Maze_DFS/Processing/CC_010_Maze_DFS
+[Javscript github for code train](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_010_Maze_DFS/Processing/CC_010_Maze_DFS) <br>
 
 **Videos:** <br>
 [Vídeo part 1](https://youtu.be/HyK_Q5rrcr4) <br>
