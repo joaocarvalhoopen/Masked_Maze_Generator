@@ -32,7 +32,7 @@ See also the following great videos explaining beautifully the Javascript code a
 * It generates a highly compressed MP4 file (small file size) using with FFMPEG.
 * It is reasonably fast, even on older hardware. 
 
-## The startup mask that You create fresh or from a photo (can have many colors).
+## The startup mask that you create fresh or from a photo (can have many colors) [Peace Symbol].
 ![PNG of the startup mask](/png_masks/png_mask_peace_symbol_small.png)
 
 ## The test mask showing the center of the squares cell that will be generated
