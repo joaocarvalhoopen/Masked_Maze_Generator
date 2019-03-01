@@ -1,0 +1,5 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Users\\JNC\\Anaconda3\\envs\\maze_generator\\python.exe"
+}
