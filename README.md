@@ -70,8 +70,7 @@ The required libs are: <br>
    2. n frames in PNG
    3. One animated GIF
    4. Then generate manually the MPEG4 file (MP4) with FFMPEG  
-4. The command to generate the MPEG 4 file with FFMPEG is:
-``` " ffmpeg -i animated.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" video.mp4 ", in with the animated.gif and video.mp4 as to be changed to your specific case. ```  
+4. The command to generate the MPEG 4 file with FFMPEG is: ffmpeg -i animated.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" video.mp4 , in with the animated.gif and video.mp4 as to be changed to your specific case. '''  
 
 <br>
 Note: This program was tested on Windows and Linux but it should also work on MAC, but i didn't tested. <br>
@@ -101,11 +100,11 @@ ex: $ source activate maze_generator <br>
 <br>
 or 
 <br>
-$ conda activate maze_generator <br>
+$ conda activate maze_generator  <br>
 <br>
 To desactivate an active environment <br>
 $ source activate yourenvname <br>
-ex:  $ source desactivate <br>
+ex: $ source desactivate <br>
 <br>
 or <br>
 <br>
@@ -122,11 +121,11 @@ ex: $ conda remove -n maze_generator -all <br>
 <br>
 <br>
 ### How to instal the libs/packages for the maze_generator package (always add -n maze_generator).
-conda install -n maze_generator -c omnia svgwrite <br>
-conda install -n maze_generator -c conda-forge svglib <br>
-conda install -n maze_generator -c conda-forge imageio <br>
-conda install -n maze_generator -c conda-forge pillow <br>
-conda install -n maze_generator -c conda-forge cssselect2 <br>
+$ conda install -n maze_generator -c omnia svgwrite <br>
+$ conda install -n maze_generator -c conda-forge svglib <br>
+$ conda install -n maze_generator -c conda-forge imageio <br>
+$ conda install -n maze_generator -c conda-forge pillow <br>
+$ conda install -n maze_generator -c conda-forge cssselect2 <br>
 <br>
 Install FFMPEG: <br>
 Ubuntu already comes with FFMPEG but you may need to update it. <br>
