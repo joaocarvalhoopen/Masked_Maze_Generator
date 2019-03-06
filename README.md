@@ -73,13 +73,12 @@ The required libs are: <br>
 4. The command to generate the MPEG 4 file with FFMPEG is " ffmpeg -i animated.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" video.mp4 ", in with the animated.gif and video.mp4 as to be changed to your specific case.   
 
 <br>
-Note: This program was tested on Windows but it should also work on Linux and MAC, but i didn't tested, it probably needs some changes to the / or \ in (slash's) in the path's. <br>
+Note: This program was tested on Windows and Linux but it should also work on MAC, but i didn't tested. <br>
 <br>
 Have fun! <br>
 <br>
 <br>
-## How to setup the virtual environment and the packages in Anaconda for the project (Linux and Windows).
-<br>
+## How to setup the virtual environment and the packages in Anaconda for the project Linux and Windows.
 See the conda version: <br>
 $ conda -V <br>
 <br>
