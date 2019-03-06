@@ -76,3 +76,67 @@ The required libs are: <br>
 Note: This program was tested on Windows but it should also work on Linux and MAC, but i didn't tested, it probably needs some changes to the / or \ in (slash's) in the path's. <br>
 <br>
 Have fun! <br>
+<br>
+<br>
+## How to setup the virtual environment and the packages in Anaconda for the project (Linux and Windows).
+<br>
+See the conda version: <br>
+$ conda -V <br>
+<br>
+Update conda <br>
+$ conda update conda <br>
+<br>
+Create a virtual environment for your project (substitute yourenvname by the name of the environment ex: maze_generator and the x.x by 3.7 the version of Python in the future environment). <br>
+$ conda create -n yourenvname python=x.x anaconda <br>
+<br>
+ex: $ conda create -n maze_generator python=3.7 anaconda <br>
+<br>
+See the environments that were created. <br>
+$ conda info -e <br>
+<br>
+To activate the environment <br>
+$ source activate yourenvname <br>
+ex: $ source activate maze_generator <br>
+<br>
+or 
+<br>
+$ conda activate maze_generator <br>
+<br>
+To desactivate an active environment <br>
+$ source activate yourenvname <br>
+ex:  $ source desactivate <br>
+<br>
+or <br>
+<br>
+$ conda deactivate <br>
+<br>
+Install additional Python packages to a virtual environment. <br>
+$ conda install -n yourenvname [package] <br>
+ex: $ conda install -n maze_generator svgwrite <br>
+<br>
+Delete a no longer needed virtual environment <br>
+$ conda remove -n yourenvname -all <br>
+<br>
+ex: $ conda remove -n maze_generator -all <br>
+<br>
+<br>
+### How to instal the libs/packages for the maze_generator package (always add -n maze_generator). <br>
+conda install -n maze_generator -c omnia svgwrite <br>
+conda install -n maze_generator -c conda-forge svglib <br>
+conda install -n maze_generator -c conda-forge imageio <br>
+conda install -n maze_generator -c conda-forge pillow <br>
+conda install -n maze_generator -c conda-forge cssselect2 <br>
+<br>
+Install FFMPEG: <br>
+Ubuntu already comes with FFMPEG but you may need to update it. <br>
+$ sudo apt update <br>
+$ sudo apt install ffmpeg <br>
+$ ffmpeg -version <br>
+<br>
+Just for info: <br>
+$ ffmpeg -encoders <br>
+$ ffmpeg -decoders <br>
+<br>
+<br>
+Note: If you are using Linux delete the ".env" file and rename the ".env_linux" file to ".env". Adjust any part of the path if needed. This file is necessary in Visual Studio Code with virtual environments in Anaconda because it doesn't make automatically the activation of the virtual environment. <br>
+<br>    
